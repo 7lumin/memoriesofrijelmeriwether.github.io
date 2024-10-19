@@ -21,26 +21,31 @@
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+        <div class="nav-bgcolor navbar navbar-inverse navbar-static-top">
+          <div class="">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <div class="nav-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html"><B>FIRSTNAME LASTNAME</B></a></li>
-                <li><a href="funeral.html">Funeral</a></li>
+                <li>
+                  <a href="index.html"
+                    ><span>Memories of Rijel Meriwether</span></a
+                  >
+                </li>
                 <li><a href="photos.html">Photos</a></li>
                 <li><a href="condolences.html">Condolences</a></li>
-                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -48,11 +53,32 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container remember">
+    <div class="container">
 
-    <div class="jumbotron">
-         <h2>Condolences</h2>
-          <p>Leave your condolences for the friends and family of FIRSTNAME.</p>
+      <div class="flex-col">
+        <text
+          x="0"
+          y="0em"
+          style="
+            letter-spacing: -0.03em;
+            direction: ltr;
+            fill: rgb(0, 0, 0);
+            font-size: 15vw; /* or use vh for height-based resizing */
+            font-family: madefor-text, helveticaneuew01-45ligh,
+              helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            text-anchor: start;
+            text-decoration: none;
+            text-transform: none;
+            overflow: visible;
+            color: #2952d9;
+          "
+          >Condolences</text
+        >
+        <div class="condolences-p">
+          Leave your condolences for the friends and family of Rijel Meriwether.
+        </div>
       </div>
 
       <!-- customize labels of htmlcommentbox.com -->

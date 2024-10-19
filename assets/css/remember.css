@@ -199,7 +199,7 @@ body {
     flex-direction: column;
   }
 
-  .memories-heading-text {
+  .heading-text {
     font-size: 17vw !important;
   }
 }
@@ -269,7 +269,24 @@ body {
   text-transform: var(--textTransform, 'none');
 }
 
-/* FUNERAL */
+/* PHOTOS */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* CONDOLENCES */
+
+.condolences-p {
+  color: rgb(41, 82, 217);
+  font: normal normal normal 24px / 1.4em madefor-text, helveticaneuew01-45ligh,
+    helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+  text-align: start;
+  text-shadow: var(--textOutline, 0 0 transparent),
+    var(--textShadow, 0 0 transparent);
+  text-transform: var(--textTransform, 'none');
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

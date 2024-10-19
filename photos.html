@@ -66,7 +66,7 @@
       <div class="container">
         <div class="nav-bgcolor navbar navbar-inverse navbar-static-top">
           <div class="">
-            <!-- <button
+            <button
               type="button"
               class="navbar-toggle"
               data-toggle="collapse"
@@ -75,18 +75,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button> -->
-            <div class="">
+            </button>
+            <div class="nav-collapse collapse">
               <ul class="nav navbar-nav">
                 <li>
                   <a href="index.html"
                     ><span>Memories of Rijel Meriwether</span></a
                   >
                 </li>
-                <li><a href="funeral.html">Funeral</a></li>
                 <li><a href="photos.html">Photos</a></li>
                 <li><a href="condolences.html">Condolences</a></li>
-                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -131,18 +129,6 @@
       </div>
       <!-- /.modal -->
 
-      <div class="jumbotron">
-        <!-- <h2>Photos</h2> -->
-        <p>
-          This gallery automatically loads photographs that have been
-          <a
-            href="https://www.flickr.com/search/?q=RijelMeriwether&m=tags&ss=0&ct=0&mt=all&w=all&adv=1"
-            >tagged on flickr with "RijelMeriwether"</a
-          >. If you have only recently created your flickr account, it can take
-          up to 48 hours before your photographs will show up here.
-        </p>
-      </div>
-
       <div>
         <text
           x="0"
@@ -151,7 +137,7 @@
             letter-spacing: -0.03em;
             direction: ltr;
             fill: rgb(0, 0, 0);
-            font-size: 20vw; /* or use vh for height-based resizing */
+            font-size: 15vw; /* or use vh for height-based resizing */
             font-family: madefor-text, helveticaneuew01-45ligh,
               helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
             font-weight: normal;
@@ -164,6 +150,17 @@
           "
           >Photos</text
         >
+
+        <div class="condolences-p">
+          <p>
+            This gallery automatically loads photographs that have been
+            <a
+              href="https://www.flickr.com/search/?q=RijelMeriwether&m=tags&ss=0&ct=0&mt=all&w=all&adv=1"
+              >tagged on flickr with "RijelMeriwether"</a
+            >. If you have only recently created your flickr account, it can
+            take up to 48 hours before your photographs will show up here.
+          </p>
+        </div>
       </div>
 
       <style type="text/css">
@@ -174,7 +171,7 @@
 
       <div id="my-photos"></div>
 
-      <p>
+      <p class="mt-2">
         <button
           type="button"
           class="btn btn-primary"
