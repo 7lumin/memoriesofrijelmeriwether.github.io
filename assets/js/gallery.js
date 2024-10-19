@@ -1,10 +1,12 @@
 // see the list of feeds here - http://www.flickr.com/services/feeds/
 // this is a handy tool to get people and group ids - http://idgettr.com/
 
+// To anyone looking yes, I know there are hard-coded secrets, they'll eventually be removed.
+
 $(document).ready(function () {
   //TODO fill out your flickr API key
-  var flickr_api_key = process.env.API_KEY;
-  var flickr_api_secret = process.env.API_SECRET;
+  var flickr_api_key = '8120bba37d5db03a75d9f77638208d06';
+  var flickr_api_secret = 'c1e6bac29a85f8cd';
 
   //TODO fill the tag you are using to tag pictures of your loved one
   var loved_one_tag = 'MeriwetherRijel';
